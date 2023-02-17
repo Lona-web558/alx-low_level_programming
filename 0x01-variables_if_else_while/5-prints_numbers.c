@@ -1,20 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - return main function
+ * main - return function
  *
- * Return: 0
+ * Return 0
  *
  */
 int main(void)
 {
-	int s = 0;
-	int e = 9;
-	 while (s <= e)
-	 {
-		 putchar(s + '0');
-		 s++;
-	 }
-	 putchar('\n');
-	 return (0);
+	int a;
+	 
+	for (a = 0; a <= 10; a++)
+	{
+		putchar(a);
+	}
+	putchar('\n');
+	return (0);
 }
