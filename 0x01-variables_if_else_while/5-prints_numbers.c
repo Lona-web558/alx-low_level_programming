@@ -1,20 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - return function
- *
- * Return 0
- *
+ * main - prints all single digit number of base 
+ * 10,starting from 0, followed by a new line
+ * Return: 0
  */
 int main(void)
 {
-	int a;
-	 
-	for (a = 0; a <= 10; a++)
-	{
-		putchar(a);
-	}
-	putchar('\n');
+	int n;
+
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
 	return (0);
 }
