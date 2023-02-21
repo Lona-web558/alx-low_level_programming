@@ -1,15 +1,19 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - print program
+ * main
+ *
+ * Return: 0
  */
-
-void print_alphabet(void)
+int main(void)
 {
-	char letter;
+	char n;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		putchar(n);
+	}
+	putchar('\n');
+	return (0);
 }
+
