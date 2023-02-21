@@ -1,18 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - prints alphabet in lowercase
+ * main -prints progaram
  *
- * REturn: 0
+ * Return: 0
  */
 int main(void)
 {
-	char a;
+	char n;
 
-	for (a = 'a'; a <= 'z'; a++)
+	for (n = 'a'; n <= 'z'; n++)
 	{
-		putchar('a');
+		putchar(n);
 	}
 	putchar('\n');
 	return (0);
 }
+
