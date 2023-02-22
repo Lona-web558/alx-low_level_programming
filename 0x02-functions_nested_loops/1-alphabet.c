@@ -1,19 +1,14 @@
 #include <stdio.h>
 
 /**
- * main
- *
- * Return: 0
+ * prints alpahbet
  */
-int main(void)
+void print_alphabet(void)
 {
-	char n;
+	char letter;
 
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		putchar(n);
-	}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 	putchar('\n');
-	return (0);
 }
 
